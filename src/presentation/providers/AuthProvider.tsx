@@ -18,7 +18,7 @@ export const AuthProvider = ({ children }: PropsWithChildren) => {
         routes: [{ name: 'Home' }],
       });
     }
-  }, [user]);
+  }, [user, navigation]);
 
   return (
     <>{ children }</>

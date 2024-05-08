@@ -24,13 +24,7 @@ export const LoginScreen = ({ navigation }: Props) => {
       Alert.alert('Error', 'Please fill in the form')
       return
     }
-
     dispatch(login(userForm))
-    navigation.reset({
-      index: 0,
-      routes: [{name: 'Home'}]
-    })
-    setUserForm({ email: '', password: '' })
   }
 
   return (

@@ -10,14 +10,8 @@ export const TasksScreen = () => {
   const tasks = useAppSelector(state => state.tasks.tasks);
   const dispatch = useAppDispatch();
 
-  const navigation = useNavigation();
-
   const handleLogout = () => {
     dispatch(logout());
-    navigation.reset({
-      index: 0,
-      routes: [{ name: 'Login' }],
-    });
   }
 
   return (
