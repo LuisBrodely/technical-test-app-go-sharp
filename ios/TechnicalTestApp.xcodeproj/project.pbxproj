@@ -43,9 +43,10 @@
 		5709B34CF0A7D63546082F79 /* Pods-TechnicalTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnicalTestApp.release.xcconfig"; path = "Target Support Files/Pods-TechnicalTestApp/Pods-TechnicalTestApp.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-TechnicalTestApp-TechnicalTestAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnicalTestApp-TechnicalTestAppTests.debug.xcconfig"; path = "Target Support Files/Pods-TechnicalTestApp-TechnicalTestAppTests/Pods-TechnicalTestApp-TechnicalTestAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-TechnicalTestApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TechnicalTestApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7735E61E90B40B8018F1CA35 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = TechnicalTestApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		7735E61E90B40B8018F1CA35 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = TechnicalTestApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = TechnicalTestApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-TechnicalTestApp-TechnicalTestAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnicalTestApp-TechnicalTestAppTests.release.xcconfig"; path = "Target Support Files/Pods-TechnicalTestApp-TechnicalTestAppTests/Pods-TechnicalTestApp-TechnicalTestAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		CA2133312BEC076600D1FF00 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialIcons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -121,6 +122,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				CA2133302BEC071B00D1FF00 /* Fonts */,
 				13B07FAE1A68108700A75B9A /* TechnicalTestApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* TechnicalTestAppTests */,
@@ -151,6 +153,14 @@
 				89C6BE57DB24E9ADA2F236DE /* Pods-TechnicalTestApp-TechnicalTestAppTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		CA2133302BEC071B00D1FF00 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CA2133312BEC076600D1FF00 /* MaterialIcons.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
