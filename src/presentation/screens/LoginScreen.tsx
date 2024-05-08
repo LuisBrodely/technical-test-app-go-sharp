@@ -30,6 +30,7 @@ export const LoginScreen = ({ navigation }: Props) => {
       index: 0,
       routes: [{name: 'Home'}]
     })
+    setUserForm({ email: '', password: '' })
   }
 
   return (
